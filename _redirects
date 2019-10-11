@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://thirsty-stallman-6bfe6d.netlify.com/* https://vanillacss.com/:splat 301!
