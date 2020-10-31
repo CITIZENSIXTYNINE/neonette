@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://vanillacss.netlify.app"
+  to = "https://vanillacss.com"
+  status = 301
+  force = true
