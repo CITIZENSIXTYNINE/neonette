@@ -1,31 +1,40 @@
+/*
+
+Neonette v1 - Neon
+
+Original Stylesheet (VanillaCSS) by Bradley Taunt. Modified and rebranded by Kris Null.
+
+*/
+
 /* Import fonts */
 @font-face {
   font-family: "Terminus";
-  src: url("https://a3jpdhrlcg.fra1.digitaloceanspaces.com/fonts/Terminus.ttf") format("truetype");
+  src: url("https://neonette.netlify.app/fonts/Terminus.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Terminus";
-  src: url("https://a3jpdhrlcg.fra1.digitaloceanspaces.com/fonts/Terminus-Bold.ttf") format("truetype");
+  src: url("https://neonette.netlify.app/fonts/Terminus-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Terminus";
-  src: url("https://a3jpdhrlcg.fra1.digitaloceanspaces.com/fonts/Terminus-Italic.ttf") format("truetype");
+  src: url("https://neonette.netlify.app/neonette/fonts/Terminus-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Terminus";
-  src: url("https://a3jpdhrlcg.fra1.digitaloceanspaces.com/neonette/fonts/Terminus-Bold-Italic.ttf") format("truetype");
+  src: url("https://neonette.netlify.app/neonette/fonts/Terminus-Bold-Italic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
 
 
@@ -126,7 +135,7 @@ hr {
     background: var(--text-color);
     border: 0;
     height: 1px;
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 img {
@@ -203,4 +212,3 @@ a:link, a:visited {
     border-bottom: 1px dotted;
     transition: .2s ease-in-out;
 }
-
