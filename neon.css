@@ -181,37 +181,6 @@ hr {
   margin-right: 1em;
 }
 
-
-/* import font (Terminus) - epic 2mb worth of a bitmap font in TTF because fuck you. */
-@font-face {
-  font-family: "Terminus";
-  src: url("https://neonette.netlify.app/fonts/Terminus.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Terminus";
-  src: url("https://neonette.netlify.app/fonts/Terminus-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Terminus";
-  src: url("https://neonette.netlify.app/fonts/Terminus-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Terminus";
-  src: url("https://neonette.netlify.app/fonts/Terminus-Bold-Italic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
-
-
 /* SPCSS (for images, codeblocks, quotes, etc) - Do not touch any code here, unless it's to change colours and fix shit. */
 img {
   max-width: 100%;
@@ -283,4 +252,9 @@ h6 {
 tt, var {
   color: #f8f8f2;
   font-family: monospace, monospace;
+}
+
+/* Use the User's Font-Stack font for Monospace, saves bandwidth and overall not as toxic - Touch all code here. */
+* {
+  font-family: Terminus, "Cascadia Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
